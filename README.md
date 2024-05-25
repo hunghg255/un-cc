@@ -19,7 +19,7 @@
 
 ```bash
 # npx
-npx un-cc@latest
+npm install un-cc@latest -D
 ```
 
 ## Usage
