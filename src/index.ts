@@ -70,7 +70,7 @@ const addComponentFile = (componentPath, componentName, options: CreateComponent
 
   const templates = globby.globbySync(`${cwd()}/${templatesDir}/**/*`, {
     expandDirectories: {
-      extensions: ['tsx', 'css', 'jsx', 'scss', 'ts', 'js', 'json', 'md', 'html'],
+      extensions: ['tsx', 'css', 'jsx', 'scss', 'ts', 'js', 'json', 'md', 'html', 'vue', 'svelte'],
     },
     onlyFiles: true,
     deep: 1,
